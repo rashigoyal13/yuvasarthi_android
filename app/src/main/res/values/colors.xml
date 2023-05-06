@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_purpule">#4169E1</color>
+    <color name="dark_purpule">#4169E1</color>
+    <color name="textcolor">#121212</color>
+    <color name="deeppurple">#7c4dff</color>
+    <color name="yellow">#ffb300</color>
+    <color name="green1">#00bfa5</color>
+    <color name="pink">#d24DEC</color>
+    <color name="red2">#F73E7C</color>
+    <color name="lightGrey">#c1c1c1</color>
+    <color name="grey">#708090</color>
+    <color name="dark_blue">#FF6200EE</color>
+    <color name="white_smoke">#F5F5F5 </color>
+    <color name="purple">#8692f7</color>
+    <color name="lavender">#8692f7</color>
+    <color name="light_grey">#708090</color>
+    <color name="Primary">#1B023B</color>
+    <color name="Secondary">#FF03DAC5</color>
+
+    <color name="night_mode">#6124B1</color>
+    <color name="notification">#13B2C3</color>
+    <color name="private_account">#E6A326</color>
+    <color name="Security">#2196F3</color>
+
+
+</resources>

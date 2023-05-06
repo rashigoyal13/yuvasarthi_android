@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+    <group android:checkableBehavior="single">
+    <item
+        android:title="Account Details"
+        android:id="@+id/pn"
+        android:icon="@drawable/ic_baseline_person_24"
+        />
+    </group>
+
+    <item
+        android:title="Feeds"
+        android:id="@+id/sh">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/blog"
+                android:title="Blog"
+                android:icon="@drawable/blog" />
+            <item
+                android:id="@+id/news"
+                android:title="News"
+                android:icon="@drawable/newspaper"/>
+            <item
+                android:id="@+id/event"
+                android:title="Event"
+                android:icon="@drawable/event"/>
+            <item
+                android:id="@+id/job"
+                android:title="Job"
+                android:icon="@drawable/job1"/>
+            </group>
+
+        </menu>
+
+    </item>
+    <item
+        android:title="Services"
+        android:id="@+id/pf"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/loan"
+                android:title="Loan"
+                android:icon="@drawable/loan"/>
+            <item
+                android:id="@+id/consult"
+                android:title="Consultancy"
+                android:icon="@drawable/consult"/>
+            </group>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/bar"
+        android:title="">
+        <menu>
+
+<group android:checkableBehavior="single">
+    <item
+        android:title="Recently Used Activity"
+        android:id="@+id/noti"
+        android:icon="@drawable/ic_baseline_notifications_24"/>
+    <item
+        android:title="FAQ"
+        android:id="@+id/qa"
+        android:icon="@drawable/ic_baseline_question_answer_24"/>
+    <item
+        android:title="Setting"
+        android:id="@+id/set"
+        android:icon="@drawable/ic_baseline_settings_24"/>
+
+    <item
+        android:id="@+id/tc"
+        android:title="Terms and Condition"
+        android:icon="@drawable/ic_baseline_info_24"/>
+    <item
+        android:id="@+id/pp"
+        android:title="privacy_policy"
+        android:icon="@drawable/ic_baseline_lock_person_24"/>
+
+</group>
+        </menu>
+    </item>
+
+    <item android:title=""
+        android:id="@+id/exit">
+        <menu>
+    <item
+                android:id="@+id/shr"
+                android:title="Share"
+                android:icon="@drawable/ic_baseline_share_24"/>
+
+
+            <item
+        android:id="@+id/lo"
+        android:title="Log Out"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"/>
+        </menu>
+
+    </item>
+
+
+</menu>

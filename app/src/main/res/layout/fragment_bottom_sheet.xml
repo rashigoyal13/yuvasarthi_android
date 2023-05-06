@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_margin="10dp"
+    android:padding="16dp"
+    tools:context=".BottomSheetFragment">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sort by:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="23sp" />
+
+    <RadioGroup
+        android:id="@+id/rdg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/nw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:padding="10dp"
+            android:text="Newest"
+            android:onClick="onRadioButtonClick"
+            android:textSize="18dp" />
+
+
+        <RadioButton
+            android:id="@+id/old"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nw"
+            android:padding="10dp"
+            android:text="Oldest"
+            android:onClick="onRadioButtonClick"
+            android:textSize="18dp"
+
+            />
+
+        <RadioButton
+            android:id="@+id/pop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/old"
+            android:padding="10dp"
+            android:text="Popular"
+            android:onClick="onRadioButtonClick"
+            android:textSize="18dp"
+
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/af"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rdg"
+        android:backgroundTint="#069183"
+        android:text="Apply Filter"
+        android:textColor="@color/white"
+        android:textSize="14dp" />
+
+</RelativeLayout>

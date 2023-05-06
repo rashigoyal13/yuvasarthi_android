@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".homeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp">
+
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:id="@+id/crd1"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    >
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:id="@+id/imgslider"
+        app:iss_delay="1000"
+        app:iss_auto_cycle="true"
+        app:iss_period="1000"
+        app:iss_corner_radius="20"/>
+
+
+
+
+
+
+</androidx.cardview.widget.CardView>
+
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="News"
+            android:id="@+id/news"
+            android:layout_below="@id/crd1"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="26sp">
+
+        </TextView>
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/news_layout"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/news"
+            android:padding="4dp"
+            tools:ignore="ExtraText">
+
+            <Button
+                android:id="@+id/city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:backgroundTint="#73A196"
+                android:text="City"
+                android:textSize="13dp">
+
+            </Button>
+
+        <Button
+            android:id="@+id/industry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="#73A196"
+            android:text="Industry"
+            android:textSize="13dp">
+
+        </Button>
+
+            <Button
+                android:id="@+id/institute"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:backgroundTint="#73A196"
+                android:text="Institute"
+                android:textSize="13dp">
+            </Button>
+
+            <Button
+                android:id="@+id/job"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginEnd="6dp"
+                android:backgroundTint="#73A196"
+                android:text="Job"
+                android:textSize="13dp">
+            </Button>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/feeds"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/news_layout"
+            android:text="Feeds"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            tools:ignore="NotSibling" />
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/feeds"
+            android:id="@+id/scrollview">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/feeds_layout"
+
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+
+
+                <Button
+                    android:id="@+id/blog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Blog"
+                    android:backgroundTint="@color/lightGrey"
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/articles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:text="Articles"
+                    android:backgroundTint="@color/lightGrey"
+                    android:textColor="@color/black"
+                    android:textSize="14dp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/event"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/lightGrey"
+                    android:textColor="@color/black"
+                    android:text="Event"
+                    android:textSize="14dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/jobb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/lightGrey"
+                    android:textColor="@color/black"
+                    android:layout_marginEnd="5dp"
+                    android:text="Job"
+                    android:textSize="14dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/poll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/lightGrey"
+                    android:clickable="true"
+                    android:textColor="@color/black"
+                    android:text="Poll"
+                    android:textSize="14dp">
+                </Button>
+
+                <Button
+                    android:id="@+id/talk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:backgroundTint="@color/lightGrey"
+                    android:textColor="@color/black"
+                    android:clickable="true"
+                    android:layout_marginEnd="5dp"
+                    android:text="Talk"
+                    android:textSize="14dp">
+                </Button>
+            </LinearLayout>
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/whats_new"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_below="@id/scrollview"
+            android:text="What's New"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold">
+        </TextView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/whats_new_layout"
+            android:layout_below="@id/whats_new"
+            android:padding="5dp">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="5dp"
+                android:layout_margin="10dp"
+                android:id="@+id/campaign1"
+                app:cardElevation="15dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="15dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img2"
+                    android:scaleType="fitXY"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="150dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="10dp"
+                android:id="@+id/campaign2"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                app:cardCornerRadius="15dp"
+                app:cardElevation="5dp"
+                >
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/image1"
+                    android:scaleType="fitXY"
+                    />
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/recently_view"
+            android:layout_below="@id/whats_new_layout"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:text="Recently viewed"
+            android:textColor="@color/black"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            />
+
+        <LinearLayout
+            android:id="@+id/recently_view_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/recently_view"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/white">
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/addNotice"
+                android:layout_width="140dp"
+                android:layout_height="140dp"
+                android:layout_margin="10dp"
+                android:layout_marginBottom="20dp"
+                android:theme="@style/Theme.MaterialComponents.Light"
+                android:layout_marginStart="5dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:layout_marginBottom="30dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="100dp"
+                        android:background="@color/white"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/color_img" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="8dp"
+                        android:backgroundTint="@color/white" />
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="3dp"
+                        android:gravity="left"
+                        android:padding="5dp"
+                        android:text="Date: "
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</ScrollView>

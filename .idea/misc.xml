@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/arrow_down_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/baseline_arrow_forward_ios_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/custom_edittext.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/edittext_bkg.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/google.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_call_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_home_repair_service_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_list_alt_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_question_answer_24.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/ic_launcher_background.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/orange_circle.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/person.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/drawable/round_back_notification.xml" value="0.131" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_aboutus.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_applyfilter.xml" value="0.15" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_botton_nav.xml" value="0.18" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_contactus.xml" value="0.28289473684210525" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_faq_acc_detail.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_faq_loan.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_list_view.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_main2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_mer_doctor.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_nav_drawer.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_optionmenulist.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_privacy_policy.xml" value="0.10687655343827672" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_settings.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_signup2.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_signup3.xml" value="0.14814814814814814" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/activity_splashscreen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_Merchant.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_Services.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_home.xml" value="0.18" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_loan.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_merchant.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_notifi.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_services.xml" value="0.1921875" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/fragment_setting.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/headernav.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/list_item.xml" value="0.18" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/layout/merchantrecyclerview.xml" value="0.32142857142857145" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/menu/navbar.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/menu/navigbar.xml" value="0.1" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/menu/optionlistmenu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Hp/AndroidStudioProjects/task/app/src/main/res/menu/sidenav.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

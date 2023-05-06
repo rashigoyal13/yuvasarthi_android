@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="5dp"
+    app:cardCornerRadius="10dp"
+    app:cardUseCompatPadding="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/img_l"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/profile"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="65dp"
+            android:text="Title Of Blog"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="290dp"
+
+            android:layout_marginBottom="5dp"
+            android:drawableRight="@drawable/ic_baseline_share_24"
+
+            android:padding="15dp"
+            app:backgroundTint="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tit"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="200dp"
+            android:backgroundTint="#00897B"
+            android:text="Read Now"
+            android:textSize="12sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_l"
+            android:text="Posted On:"
+            android:textSize="15sp"
+            android:layout_marginRight="250dp"
+            android:id="@+id/po"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/po"
+            android:text="DD/MM/YYYY"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginRight="230dp"
+            android:id="@+id/date"/>
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

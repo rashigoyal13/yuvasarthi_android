@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Home"
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        />
+
+    <item
+        android:title="Merchant"
+        android:id="@+id/pf"
+        android:icon="@drawable/ic_baseline_list_alt_24"/>
+    <item
+        android:title="Services"
+        android:id="@+id/noti"
+        android:icon="@drawable/ic_baseline_home_repair_service_24"/>
+    <item
+        android:title="FAQ"
+        android:id="@+id/set"
+        android:icon="@drawable/ic_baseline_question_answer_24"/>
+
+
+</menu>
